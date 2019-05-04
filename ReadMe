@@ -1,0 +1,13 @@
+You can run the initial testing without any parameters.
+It will display the most common words in the spam messages and the ham messages.
+It will also display the last W in the list of W's for the average perceptron and it will display the
+results of running the W on the training data with the error.
+
+The data-desc will help you understand the features in the data set.
+The spam.csv is the initial dataset that I got online.  It has a label and plain text.
+The SpamWithFeatures.csv is the dataset broken up with features and a label.
+More about the features is in the data-desc file.
+
+
+The final testing file will run in about 1-2 min the epochs are set to 300 since I was getting around 5% lower
+accuracy at 100 epochs
